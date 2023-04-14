@@ -1,0 +1,15 @@
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\bin\Debug\net6.0\cajero_Automatico.exe
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\bin\Debug\net6.0\cajero_Automatico.deps.json
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\bin\Debug\net6.0\cajero_Automatico.runtimeconfig.json
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\bin\Debug\net6.0\cajero_Automatico.dll
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\bin\Debug\net6.0\cajero_Automatico.pdb
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\obj\Debug\net6.0\cajero_Automatico.csproj.AssemblyReference.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\obj\Debug\net6.0\cajero_Automatico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\obj\Debug\net6.0\cajero_Automatico.AssemblyInfoInputs.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\obj\Debug\net6.0\cajero_Automatico.AssemblyInfo.cs
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\obj\Debug\net6.0\cajero_Automatico.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\obj\Debug\net6.0\cajero_Automatico.dll
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\obj\Debug\net6.0\refint\cajero_Automatico.dll
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\obj\Debug\net6.0\cajero_Automatico.pdb
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\obj\Debug\net6.0\cajero_Automatico.genruntimeconfig.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\cajero_Automatico\obj\Debug\net6.0\ref\cajero_Automatico.dll
