@@ -1,0 +1,15 @@
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\obj\Debug\net6.0\tirar_Dado.csproj.AssemblyReference.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\obj\Debug\net6.0\tirar_Dado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\obj\Debug\net6.0\tirar_Dado.AssemblyInfoInputs.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\obj\Debug\net6.0\tirar_Dado.AssemblyInfo.cs
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\obj\Debug\net6.0\tirar_Dado.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\bin\Debug\net6.0\tirar_Dado.exe
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\bin\Debug\net6.0\tirar_Dado.deps.json
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\bin\Debug\net6.0\tirar_Dado.runtimeconfig.json
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\bin\Debug\net6.0\tirar_Dado.dll
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\bin\Debug\net6.0\tirar_Dado.pdb
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\obj\Debug\net6.0\tirar_Dado.dll
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\obj\Debug\net6.0\refint\tirar_Dado.dll
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\obj\Debug\net6.0\tirar_Dado.pdb
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\obj\Debug\net6.0\tirar_Dado.genruntimeconfig.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\tirar_Dado\obj\Debug\net6.0\ref\tirar_Dado.dll

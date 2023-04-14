@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "tirar_Dado/1.0.0": {
+        "runtime": {
+          "tirar_Dado.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "tirar_Dado/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
