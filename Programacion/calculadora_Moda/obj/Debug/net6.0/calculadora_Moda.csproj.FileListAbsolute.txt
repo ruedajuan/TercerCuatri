@@ -1,0 +1,15 @@
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\bin\Debug\net6.0\calculadora_Moda.exe
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\bin\Debug\net6.0\calculadora_Moda.deps.json
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\bin\Debug\net6.0\calculadora_Moda.runtimeconfig.json
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\bin\Debug\net6.0\calculadora_Moda.dll
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\bin\Debug\net6.0\calculadora_Moda.pdb
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\obj\Debug\net6.0\calculadora_Moda.csproj.AssemblyReference.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\obj\Debug\net6.0\calculadora_Moda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\obj\Debug\net6.0\calculadora_Moda.AssemblyInfoInputs.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\obj\Debug\net6.0\calculadora_Moda.AssemblyInfo.cs
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\obj\Debug\net6.0\calculadora_Moda.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\obj\Debug\net6.0\calculadora_Moda.dll
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\obj\Debug\net6.0\refint\calculadora_Moda.dll
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\obj\Debug\net6.0\calculadora_Moda.pdb
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\obj\Debug\net6.0\calculadora_Moda.genruntimeconfig.cache
+C:\Users\Marcelo\Desktop\tarea\TUP 2023 1 CUATRIMESTRE\PROG III\programas\first\calculadora_Moda\obj\Debug\net6.0\ref\calculadora_Moda.dll
