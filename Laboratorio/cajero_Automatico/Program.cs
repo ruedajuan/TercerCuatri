@@ -7,13 +7,13 @@ namespace cajero_Automatico
 
     class cajero
     {
-        public string direccion;
-        public int numCajero;
+        private string direccion;
+        private int numCajero;
 
         public cajero(string direccion, int numCajero)
         {
-            direccion = this.direccion;
-            numCajero = this.numCajero;
+            this.direccion = direccion;
+            this.numCajero = numCajero;
         }
 
         public string Identificar()
@@ -86,14 +86,23 @@ namespace cajero_Automatico
             List<cajero> cajeros = new List<cajero>();
             List<cuenta> cuentas = new List<cuenta>();
 
-            cuentas.Add(new cuenta("Tommy", "Latyn", false));
-            cuentas.Add(new cuenta("Margarita", "Latyn", true));
-            cuentas.Add(new cuenta("Marcelo", "Latyn", false));
-
             cajeros.Add(new cajero("Av A 131", 00345));
             cajeros.Add(new cajero("Av B 102", 00346));
             cajeros.Add(new cajero("Av A 145", 00347));
 
+            Console.WriteLine(cajeros[0].Identificar());
+            
+
+            cuentas.Add(new cuenta("Tommy", "Latyn", false));
+            cuentas.Add(new cuenta("Margarita", "Latyn", true));
+            cuentas.Add(new cuenta("Marcelo", "Latyn", false));
+
+            cuentas[0].Depositar(50000);
+            cuentas[1].Depositar(50000);
+            cuentas[2].Depositar(50000);
+             
+
+           
 
 
             while (salir!=0)
@@ -175,20 +184,32 @@ namespace cajero_Automatico
                             Console.WriteLine("Informacion de la transaccion");
                             cajeros[num - 1].Identificar();
                             Console.WriteLine("Total en la cuenta: $" + cuentas[num - 1].TraerSaldo());
+                            DateTime hoy = DateTime.Now;
+                            Console.WriteLine("Fecha y hora de la operacion: "+hoy);
 
                             break;
                         }
                     case 3:
                         {
-                            Console.WriteLine("Seleccione su cuenta");
+                            Console.WriteLine("Seleccione un cajero ");
                             int i = 1;
+                            foreach (cajero b in cajeros)
+                            {
+                                Console.WriteLine(i + "-" + b.Identificar());
+                                i++;
+                            }
+
+                            int num = int.Parse(Console.ReadLine());
+
+                            Console.WriteLine("Seleccione su cuenta");
+                             i = 1;
                             foreach (cuenta c in cuentas)
                             {
                                 Console.WriteLine(i + "-" + c.TraerNombre());
                                 i++;
                             }
 
-                            int num = int.Parse(Console.ReadLine());
+                             num = int.Parse(Console.ReadLine());
 
                             Console.WriteLine("Ingrese la cantidad a retirar");
                             double retiro = double.Parse(Console.ReadLine());
@@ -197,36 +218,34 @@ namespace cajero_Automatico
                             {
                                 if (retiro > 20000)
                                 {
-                                    Console.WriteLine("El adelanto de sueldo no puede ser mayor a $20.000");
+                                    Console.WriteLine("El adelanto de sueldo no puede ser mayor a $20.000, reintente la operación con un monto menor");
                                 }
                                 else {
                                     cuentas[num - 1].Retirar(retiro);
                                     Console.WriteLine("Dinero retirado");
-                                    Console.WriteLine("Total restante en la cuenta: $" + cuentas[num - 1].TraerSaldo())
+                                    Console.WriteLine("Informacion de la transaccion");
+                                    cajeros[num - 1].Identificar();
+                                    Console.WriteLine("Total en la cuenta: $" + cuentas[num - 1].TraerSaldo());
+                                    DateTime hoy = DateTime.Now;
+                                    Console.WriteLine("Fecha y hora de la operacion: " + hoy);
                                 }
                             }
                             else
                             {
                                 if (retiro > 10000)
                                 {
-                                    Console.WriteLine("El adelanto de sueldo no puede ser mayor a $10.000");
+                                    Console.WriteLine("El adelanto de sueldo no puede ser mayor a $10.000, reintente la operación con un monto menor");
                                 }
                                 else
                                 {
                                     cuentas[num - 1].Retirar(retiro);
                                     Console.WriteLine("Dinero retirado");
-                                    Console.WriteLine("Total restante en la cuenta: $" + cuentas[num - 1].TraerSaldo())
+                                    Console.WriteLine("Total restante en la cuenta: $" + cuentas[num - 1].TraerSaldo());
                                 }
                             }
-
-                            
-
-                            
                             break;
                         }
                 }
-
-
 
                 Console.WriteLine("Salir? Si=0/No=1");
                 salir=int.Parse(Console.ReadLine());
