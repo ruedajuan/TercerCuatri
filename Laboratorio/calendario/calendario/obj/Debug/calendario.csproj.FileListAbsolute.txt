@@ -1,0 +1,8 @@
+D:\Facultad\lab3\Proyectos\calendario\calendario\bin\Debug\calendario.exe.config
+D:\Facultad\lab3\Proyectos\calendario\calendario\bin\Debug\calendario.exe
+D:\Facultad\lab3\Proyectos\calendario\calendario\bin\Debug\calendario.pdb
+D:\Facultad\lab3\Proyectos\calendario\calendario\obj\Debug\calendario.csproj.AssemblyReference.cache
+D:\Facultad\lab3\Proyectos\calendario\calendario\obj\Debug\calendario.csproj.SuggestedBindingRedirects.cache
+D:\Facultad\lab3\Proyectos\calendario\calendario\obj\Debug\calendario.csproj.CoreCompileInputs.cache
+D:\Facultad\lab3\Proyectos\calendario\calendario\obj\Debug\calendario.exe
+D:\Facultad\lab3\Proyectos\calendario\calendario\obj\Debug\calendario.pdb
