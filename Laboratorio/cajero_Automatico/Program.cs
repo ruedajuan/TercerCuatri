@@ -128,12 +128,12 @@ namespace cajero_Automatico
             Console.WriteLine(cajeros[0].Identificar());
             
 
-            cuentas.Add(new cuenta("Tommy", "Latyn", false,05,06,2012));
-            cuentas.Add(new cuenta("Margarita", "Latyn", true,09,08,2015));
-            cuentas.Add(new cuenta("Marcelo", "Latyn", false,21,07,2022));
+            cuentas.Add(new cuenta("Tomás", "Latyn", false,05,06,2012));
+            cuentas.Add(new cuenta("Mariel", "Vera", true,09,08,2015));
+            cuentas.Add(new cuenta("Gonzalo", "Enz", false,21,07,2022));
 
-            cuentas[0].Depositar(50000);
-            cuentas[1].Depositar(23000);
+            cuentas[0].Depositar(10000);
+            cuentas[1].Depositar(25000);
             cuentas[2].Depositar(50000);
              
 
@@ -141,7 +141,7 @@ namespace cajero_Automatico
             {
 
                 Console.WriteLine("------------------------------------------------------");
-                Console.WriteLine("Menu del Cajero");
+                Console.WriteLine("                  Menu del Cajero");
                 Console.WriteLine("------------------------------------------------------");
                 Console.WriteLine("1-Crear cuenta");
                 Console.WriteLine("2-Depositar dinero");
