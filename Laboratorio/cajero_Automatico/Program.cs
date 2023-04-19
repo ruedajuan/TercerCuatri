@@ -1,4 +1,6 @@
-﻿using System.ComponentModel;
+﻿using System;
+using System.ComponentModel;
+using System.Diagnostics;
 using System.Net.Http.Headers;
 using System.Threading.Tasks.Dataflow;
 
@@ -28,12 +30,14 @@ namespace cajero_Automatico
         private string apellido;
         private double saldo;
         private bool esJubilado;
+        private DateTime fecha;
 
-        public cuenta (string nombre, string apellido, bool esJubilado)
+        public cuenta (string nombre, string apellido, bool esJubilado,int dia, int mes, int año)
         {
             this.nombre = nombre;
             this.apellido = apellido;
             this.esJubilado = esJubilado;
+            this.fecha =new DateTime(año,mes,dia);
         }
 
         public void MostrarInfo()
@@ -48,6 +52,7 @@ namespace cajero_Automatico
             {
                 Console.WriteLine("Persona en actividad laboral");
             }
+            Console.WriteLine("Fecha de creación de la cuenta: "+this.fecha.ToShortDateString());
         }
 
         public string TraerNombre()
@@ -75,6 +80,36 @@ namespace cajero_Automatico
             this.saldo = this.saldo - dinero;
         }
 
+        public void SacarPrestamo(double prestamo)
+        {
+            DateTime hoy = DateTime.Now;
+
+            int limite = 0, result = DateTime.Compare(hoy, this.fecha);
+
+            if (result > 0 && this.saldo >=20000) {
+                limite = -80000;
+                if(this.saldo-prestamo >= limite)
+                {
+                    this.saldo = this.saldo - prestamo;
+
+                    Console.WriteLine("Dinero retirado");
+                    Console.WriteLine("Informacion de la transaccion");
+                    
+                    Console.WriteLine("Total en la cuenta: $" + this.saldo);
+                   
+                    Console.WriteLine("Fecha y hora de la operacion: " + hoy);
+
+                }
+                else
+                {
+                    Console.WriteLine("No puede retirar esa cantidad, supero el limite permitido");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No puede solicitar el prestamo especial");
+            }
+        }
     }
 
     
@@ -93,17 +128,14 @@ namespace cajero_Automatico
             Console.WriteLine(cajeros[0].Identificar());
             
 
-            cuentas.Add(new cuenta("Tommy", "Latyn", false));
-            cuentas.Add(new cuenta("Margarita", "Latyn", true));
-            cuentas.Add(new cuenta("Marcelo", "Latyn", false));
+            cuentas.Add(new cuenta("Tommy", "Latyn", false,05,06,2012));
+            cuentas.Add(new cuenta("Margarita", "Latyn", true,09,08,2015));
+            cuentas.Add(new cuenta("Marcelo", "Latyn", false,21,07,2022));
 
             cuentas[0].Depositar(50000);
-            cuentas[1].Depositar(50000);
+            cuentas[1].Depositar(23000);
             cuentas[2].Depositar(50000);
              
-
-           
-
 
             while (salir!=0)
             {
@@ -114,6 +146,7 @@ namespace cajero_Automatico
                 Console.WriteLine("1-Crear cuenta");
                 Console.WriteLine("2-Depositar dinero");
                 Console.WriteLine("3-Retirar dinero");
+                Console.WriteLine("4-Pedir prestamo especial");
                 Console.WriteLine("0-Salir");
 
                 opc = int.Parse(Console.ReadLine());
@@ -142,7 +175,12 @@ namespace cajero_Automatico
                                 }
                             }
 
-                            cuenta c1 = new cuenta(name, sname, job);
+                            Console.WriteLine("Ingrese la fecha de creacion de la cuenta (DD/MM/AAAA)");
+                            int dia = int.Parse(Console.ReadLine());
+                            int mes = int.Parse(Console.ReadLine());
+                            int año = int.Parse(Console.ReadLine());
+
+                            cuenta c1 = new cuenta(name, sname, job,dia,mes,año);
                             cuentas.Add(c1);
 
                             Console.WriteLine("Cuenta creada exitosamente");
@@ -243,6 +281,41 @@ namespace cajero_Automatico
                                     Console.WriteLine("Total restante en la cuenta: $" + cuentas[num - 1].TraerSaldo());
                                 }
                             }
+                            break;
+                        }
+                    case 4:
+                        {
+                            Console.WriteLine("Seleccione un cajero ");
+                            int i = 1;
+                            foreach (cajero b in cajeros)
+                            {
+                                Console.WriteLine(i + "-" + b.Identificar());
+                                i++;
+                            }
+
+                            int num = int.Parse(Console.ReadLine());
+
+                            Console.WriteLine("Seleccione su cuenta");
+                            i = 1;
+                            foreach (cuenta c in cuentas)
+                            {
+                                Console.WriteLine(i + "-" + c.TraerNombre());
+                                i++;
+                            }
+
+                            num = int.Parse(Console.ReadLine());
+
+                            int dinero = 0;
+
+                            Console.WriteLine("Ingrese monto del prestamo");
+                            dinero=int.Parse(Console.ReadLine());   
+
+                            cuentas[num-1].SacarPrestamo(dinero);
+
+                            cajeros[num - 1].Identificar();
+
+
+
                             break;
                         }
                 }
