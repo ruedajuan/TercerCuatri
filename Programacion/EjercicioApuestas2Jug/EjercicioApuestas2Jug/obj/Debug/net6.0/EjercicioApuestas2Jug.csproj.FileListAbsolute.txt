@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\bin\Debug\net6.0\EjercicioApuestas2Jug.exe
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\bin\Debug\net6.0\EjercicioApuestas2Jug.deps.json
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\bin\Debug\net6.0\EjercicioApuestas2Jug.runtimeconfig.json
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\bin\Debug\net6.0\EjercicioApuestas2Jug.dll
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\bin\Debug\net6.0\EjercicioApuestas2Jug.pdb
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\obj\Debug\net6.0\EjercicioApuestas2Jug.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\obj\Debug\net6.0\EjercicioApuestas2Jug.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\obj\Debug\net6.0\EjercicioApuestas2Jug.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\obj\Debug\net6.0\EjercicioApuestas2Jug.AssemblyInfo.cs
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\obj\Debug\net6.0\EjercicioApuestas2Jug.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\obj\Debug\net6.0\EjercicioApuestas2Jug.dll
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\obj\Debug\net6.0\refint\EjercicioApuestas2Jug.dll
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\obj\Debug\net6.0\EjercicioApuestas2Jug.pdb
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\obj\Debug\net6.0\EjercicioApuestas2Jug.genruntimeconfig.cache
+C:\Users\user\source\repos\EjercicioApuestas2Jug\EjercicioApuestas2Jug\obj\Debug\net6.0\ref\EjercicioApuestas2Jug.dll
