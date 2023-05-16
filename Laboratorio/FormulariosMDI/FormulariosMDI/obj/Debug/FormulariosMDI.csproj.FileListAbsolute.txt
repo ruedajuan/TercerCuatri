@@ -1,0 +1,12 @@
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\bin\Debug\FormulariosMDI.exe.config
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\bin\Debug\FormulariosMDI.exe
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\bin\Debug\FormulariosMDI.pdb
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\obj\Debug\FormulariosMDI.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\obj\Debug\FormulariosMDI.Form1.resources
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\obj\Debug\FormulariosMDI.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\obj\Debug\FormulariosMDI.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\obj\Debug\FormulariosMDI.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\obj\Debug\FormulariosMDI.exe
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\obj\Debug\FormulariosMDI.pdb
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\obj\Debug\FormulariosMDI.FichaCliente.resources
+C:\Users\LENOVO\source\repos\FormulariosMDI\FormulariosMDI\obj\Debug\FormulariosMDI.GrillaClientes.resources
