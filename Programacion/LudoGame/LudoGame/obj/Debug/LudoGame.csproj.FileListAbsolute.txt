@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\LudoGame\LudoGame\bin\Debug\LudoGame.exe.config
+C:\Users\user\source\repos\LudoGame\LudoGame\bin\Debug\LudoGame.exe
+C:\Users\user\source\repos\LudoGame\LudoGame\bin\Debug\LudoGame.pdb
+C:\Users\user\source\repos\LudoGame\LudoGame\obj\Debug\LudoGame.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\LudoGame\LudoGame\obj\Debug\LudoGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\LudoGame\LudoGame\obj\Debug\LudoGame.Portada.resources
+C:\Users\user\source\repos\LudoGame\LudoGame\obj\Debug\LudoGame.Properties.Resources.resources
+C:\Users\user\source\repos\LudoGame\LudoGame\obj\Debug\LudoGame.Tablero.resources
+C:\Users\user\source\repos\LudoGame\LudoGame\obj\Debug\LudoGame.csproj.GenerateResource.cache
+C:\Users\user\source\repos\LudoGame\LudoGame\obj\Debug\LudoGame.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\LudoGame\LudoGame\obj\Debug\LudoGame.exe
+C:\Users\user\source\repos\LudoGame\LudoGame\obj\Debug\LudoGame.pdb
+C:\Users\user\source\repos\LudoGame\LudoGame\obj\Debug\LudoGame.Jugabilidad.resources
